@@ -48,7 +48,7 @@ export const layout = (
   };
 
   const linkDis = 400 - nodos.length * 10;
-  var force = d3.layout
+  const force = d3.layout
     .force()
     .nodes(dataset.nodes)
     .links(dataset.edges)
