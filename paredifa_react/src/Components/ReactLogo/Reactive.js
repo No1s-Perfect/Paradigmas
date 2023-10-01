@@ -1,4 +1,3 @@
-import "./temp.scss";
 /*
  *
  * Description:
