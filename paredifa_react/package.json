@@ -25,7 +25,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "npm run build && (cd Server && node app)"
+    "start": "npm run build && (cd Server && node app)",
+    "client":"npm i && cd Server && npm i && cd .. && npm start",
+    "pg":"cd ../paredifa_prolog && swipl -s server.pl"
   },
   "eslintConfig": {
     "extends": [
