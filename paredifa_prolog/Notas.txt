@@ -1,0 +1,2 @@
+ docker build -t my-prolog-app .
+ docker run -p 9000:9000 -it my-prolog-app
