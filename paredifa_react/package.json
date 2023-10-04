@@ -26,7 +26,8 @@
     "eject": "react-scripts eject",
     "start": "npm run build && (cd Server && node app)",
     "client": "npm i && cd Server && npm i && cd .. && npm start",
-    "pg": "cd ../paredifa_prolog && swipl -s server.pl"
+    "pg": "cd ../paredifa_prolog && swipl -s server.pl",
+    "prolog-docker":"cd ../paredifa_prolog && docker build -t my-prolog-app . &&  docker run -p 9000:9000 -it my-prolog-app"
   },
   "eslintConfig": {
     "extends": [

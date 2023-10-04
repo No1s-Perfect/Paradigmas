@@ -1,5 +1,5 @@
 require('dotenv').config();
-const express = require("Express");
+const express = require("express");
 const cors = require("cors");
 const { graphqlHTTP } = require("express-graphql");
 const { schema } = require("./schemas/schema.js");
