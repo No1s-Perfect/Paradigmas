@@ -9,7 +9,7 @@ COPY package*.json ./
 
 # Install application dependencies
 RUN npm install
-COPY ../build /app/build
+COPY /build /app/build
 # Copy the rest of the application files to the container
 COPY . .
 
