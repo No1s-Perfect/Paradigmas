@@ -12,5 +12,6 @@ COPY modules /app/modules
 EXPOSE 9000
 
 # Command to run your Prolog application when the container starts
-CMD ["swipl", "-s", "/app/server.pl"]
+ENTRYPOINT ["swipl"]
+CMD ["/app/server.pl",  "--user=daemon", "--fork=false", "--port=9000"]
 

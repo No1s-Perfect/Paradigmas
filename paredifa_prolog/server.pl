@@ -15,6 +15,7 @@
 :- use_module(library(http/http_dispatch)).
 :- use_module(library(http/http_files)).
 :- use_module(library(http/html_head)).
+:- use_module(library(http/http_unix_daemon)).
 :- use_module(library(http/json)).
 :- use_module(library(http/http_json)).
 
